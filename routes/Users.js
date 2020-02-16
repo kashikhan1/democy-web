@@ -45,6 +45,20 @@ users.post('/register', (req, res) => {
     })
 })
 
+users.post('/register', (req, res) => {
+  const today = new Date()
+  console.log(req.body.code)
+  const userData = {
+    first_name: req.body.first_name,
+    last_name: req.body.last_name,
+    email: req.body.email,
+    password: req.body.password,
+    code : req.body.code,
+    created: today
+  }
+
+})
+
 users.post('/login', (req, res) => {
   console.log('................','here')
   User.findOne({
