@@ -16,7 +16,7 @@
     "react-dom": "^16.5.2",
     "react-router-dom": "^4.4.0-beta.6",
     "react-scripts": "1.1.5",
-    "recharts": "^1.7.1",
+    "recharts": "^2.1.14",
     "use-react-router": "^1.0.7"
   },
   "scripts": {
